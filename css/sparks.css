@@ -7,6 +7,5 @@
 } 
 
 .Bounce {
-  animation-duration: 3s;
-  animation-name: bounce;
+  animation: Bounce 3s infinite;
 }

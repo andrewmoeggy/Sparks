@@ -68,6 +68,9 @@ html {
   border: 1px solid rgb(115, 115, 115);
 }
 
+.first-option{
+}
+
 .form-select:focus {
   border: 1px solid rgb(162, 43, 162);
 }
