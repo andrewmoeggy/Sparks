@@ -12,11 +12,16 @@ html {
 
 .container  {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   height: 90vh;
-  align-items: center;
   background-color: rgb(247, 247, 247);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .main-heading {
@@ -28,6 +33,7 @@ html {
 }
 
 .border-bottom {
+  text-align: center;
   border-bottom: 4px solid rgb(162, 43, 162);
   width: 6rem;
 }
@@ -69,4 +75,28 @@ html {
 .form-option {
   cursor: pointer;
   font-weight: 100;
+}
+
+/* Footer  */
+
+.footer {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer p {
+  padding: .5rem;
+  font-size: 1.4rem;
+}
+
+.footer-a {
+  color: black;
+}
+.footer-a:hover {
+  color: #888;
 }
