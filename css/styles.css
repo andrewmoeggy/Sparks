@@ -6,7 +6,8 @@
 
 html {
   font-size: 62.5%;
-  font-family: 'Raleway', 'Arial Narrow', Arial, sans-serif
+  font-family: 'Raleway', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgb(247, 247, 247);
 }
 
 .container  {
